@@ -1,4 +1,5 @@
 # Megering two link list
+
 """# Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
@@ -24,8 +25,7 @@ class Solution:
             head.next = list2
         return res.next"""
 
-
-#Roman to integer
+# Roman to integer
 """class Solution:
   def intToRoman(self, num: int) -> str:
     romans = [
@@ -50,5 +50,3 @@ class Solution:
         temp += ro * count
         num = num % val
     return temp """
-
-
